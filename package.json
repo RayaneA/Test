@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "test de la mort qui tue",
   "main": "index.js",
   "scripts": {
