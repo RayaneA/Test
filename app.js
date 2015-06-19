@@ -1,10 +1,13 @@
 var express = require('express');
 var app = express();
 
-app.use(express.static('public'));
-app.get('/', function (req, res) {
-  res.send('index.html');
+app.post('/', function (req, res) {
+  res.send('Got a POST request');
 });
+
+//app.get('/', function (req, res) {
+//  res.send('index.html');
+//});
 
 var server = app.listen(3000, function () {
   
