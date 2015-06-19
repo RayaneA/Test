@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/RayaneA/Test/issues"
   },
-  "homepage": "https://github.com/RayaneA/Test#readme"
+  "homepage": "https://github.com/RayaneA/Test#readme",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
 }
